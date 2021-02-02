@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37D35ECC25C8BACB00E2A75A /* BenjaminCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D35ECB25C8BACB00E2A75A /* BenjaminCardApp.swift */; };
+		37D35ECE25C8BACB00E2A75A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D35ECD25C8BACB00E2A75A /* ContentView.swift */; };
+		37D35ED025C8BACD00E2A75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D35ECF25C8BACD00E2A75A /* Assets.xcassets */; };
+		37D35ED325C8BACD00E2A75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D35ED225C8BACD00E2A75A /* Preview Assets.xcassets */; };
+		37D35EDE25C8BACD00E2A75A /* BenjaminCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D35EDD25C8BACD00E2A75A /* BenjaminCardTests.swift */; };
+		37D35EE925C8BACD00E2A75A /* BenjaminCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D35EE825C8BACD00E2A75A /* BenjaminCardUITests.swift */; };
+		37D35EFB25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D35EFA25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf */; };
+		37D35EFC25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D35EFA25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf */; };
+		37D35EFD25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37D35EFA25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf */; };
+		37D35F0225C8C9A300E2A75A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D35F0125C8C9A300E2A75A /* InfoView.swift */; };
+		37D35F0325C8C9A300E2A75A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D35F0125C8C9A300E2A75A /* InfoView.swift */; };
+		37D35F0425C8C9A300E2A75A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D35F0125C8C9A300E2A75A /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37D35EDA25C8BACD00E2A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37D35EC025C8BACA00E2A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D35EC725C8BACB00E2A75A;
+			remoteInfo = BenjaminCard;
+		};
+		37D35EE525C8BACD00E2A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37D35EC025C8BACA00E2A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D35EC725C8BACB00E2A75A;
+			remoteInfo = BenjaminCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37D35EC825C8BACB00E2A75A /* BenjaminCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenjaminCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D35ECB25C8BACB00E2A75A /* BenjaminCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenjaminCardApp.swift; sourceTree = "<group>"; };
+		37D35ECD25C8BACB00E2A75A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37D35ECF25C8BACD00E2A75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37D35ED225C8BACD00E2A75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37D35ED425C8BACD00E2A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D35ED925C8BACD00E2A75A /* BenjaminCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenjaminCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D35EDD25C8BACD00E2A75A /* BenjaminCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenjaminCardTests.swift; sourceTree = "<group>"; };
+		37D35EDF25C8BACD00E2A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D35EE425C8BACD00E2A75A /* BenjaminCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenjaminCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D35EE825C8BACD00E2A75A /* BenjaminCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenjaminCardUITests.swift; sourceTree = "<group>"; };
+		37D35EEA25C8BACD00E2A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D35EFA25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		37D35F0125C8C9A300E2A75A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D35EC525C8BACB00E2A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D35ED625C8BACD00E2A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D35EE125C8BACD00E2A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D35EBF25C8BACA00E2A75A = {
+			isa = PBXGroup;
+			children = (
+				37D35ECA25C8BACB00E2A75A /* BenjaminCard */,
+				37D35EDC25C8BACD00E2A75A /* BenjaminCardTests */,
+				37D35EE725C8BACD00E2A75A /* BenjaminCardUITests */,
+				37D35EC925C8BACB00E2A75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37D35EC925C8BACB00E2A75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D35EC825C8BACB00E2A75A /* BenjaminCard.app */,
+				37D35ED925C8BACD00E2A75A /* BenjaminCardTests.xctest */,
+				37D35EE425C8BACD00E2A75A /* BenjaminCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D35ECA25C8BACB00E2A75A /* BenjaminCard */ = {
+			isa = PBXGroup;
+			children = (
+				37D35EF925C8BD0C00E2A75A /* fonts */,
+				37D35ECB25C8BACB00E2A75A /* BenjaminCardApp.swift */,
+				37D35ECD25C8BACB00E2A75A /* ContentView.swift */,
+				37D35F0125C8C9A300E2A75A /* InfoView.swift */,
+				37D35ECF25C8BACD00E2A75A /* Assets.xcassets */,
+				37D35ED425C8BACD00E2A75A /* Info.plist */,
+				37D35ED125C8BACD00E2A75A /* Preview Content */,
+			);
+			path = BenjaminCard;
+			sourceTree = "<group>";
+		};
+		37D35ED125C8BACD00E2A75A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37D35ED225C8BACD00E2A75A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37D35EDC25C8BACD00E2A75A /* BenjaminCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				37D35EDD25C8BACD00E2A75A /* BenjaminCardTests.swift */,
+				37D35EDF25C8BACD00E2A75A /* Info.plist */,
+			);
+			path = BenjaminCardTests;
+			sourceTree = "<group>";
+		};
+		37D35EE725C8BACD00E2A75A /* BenjaminCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37D35EE825C8BACD00E2A75A /* BenjaminCardUITests.swift */,
+				37D35EEA25C8BACD00E2A75A /* Info.plist */,
+			);
+			path = BenjaminCardUITests;
+			sourceTree = "<group>";
+		};
+		37D35EF925C8BD0C00E2A75A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				37D35EFA25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D35EC725C8BACB00E2A75A /* BenjaminCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D35EED25C8BACD00E2A75A /* Build configuration list for PBXNativeTarget "BenjaminCard" */;
+			buildPhases = (
+				37D35EC425C8BACB00E2A75A /* Sources */,
+				37D35EC525C8BACB00E2A75A /* Frameworks */,
+				37D35EC625C8BACB00E2A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BenjaminCard;
+			productName = BenjaminCard;
+			productReference = 37D35EC825C8BACB00E2A75A /* BenjaminCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37D35ED825C8BACD00E2A75A /* BenjaminCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D35EF025C8BACD00E2A75A /* Build configuration list for PBXNativeTarget "BenjaminCardTests" */;
+			buildPhases = (
+				37D35ED525C8BACD00E2A75A /* Sources */,
+				37D35ED625C8BACD00E2A75A /* Frameworks */,
+				37D35ED725C8BACD00E2A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37D35EDB25C8BACD00E2A75A /* PBXTargetDependency */,
+			);
+			name = BenjaminCardTests;
+			productName = BenjaminCardTests;
+			productReference = 37D35ED925C8BACD00E2A75A /* BenjaminCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37D35EE325C8BACD00E2A75A /* BenjaminCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D35EF325C8BACD00E2A75A /* Build configuration list for PBXNativeTarget "BenjaminCardUITests" */;
+			buildPhases = (
+				37D35EE025C8BACD00E2A75A /* Sources */,
+				37D35EE125C8BACD00E2A75A /* Frameworks */,
+				37D35EE225C8BACD00E2A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37D35EE625C8BACD00E2A75A /* PBXTargetDependency */,
+			);
+			name = BenjaminCardUITests;
+			productName = BenjaminCardUITests;
+			productReference = 37D35EE425C8BACD00E2A75A /* BenjaminCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D35EC025C8BACA00E2A75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					37D35EC725C8BACB00E2A75A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					37D35ED825C8BACD00E2A75A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 37D35EC725C8BACB00E2A75A;
+					};
+					37D35EE325C8BACD00E2A75A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 37D35EC725C8BACB00E2A75A;
+					};
+				};
+			};
+			buildConfigurationList = 37D35EC325C8BACA00E2A75A /* Build configuration list for PBXProject "BenjaminCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37D35EBF25C8BACA00E2A75A;
+			productRefGroup = 37D35EC925C8BACB00E2A75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D35EC725C8BACB00E2A75A /* BenjaminCard */,
+				37D35ED825C8BACD00E2A75A /* BenjaminCardTests */,
+				37D35EE325C8BACD00E2A75A /* BenjaminCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D35EC625C8BACB00E2A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D35EFB25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf in Resources */,
+				37D35ED325C8BACD00E2A75A /* Preview Assets.xcassets in Resources */,
+				37D35ED025C8BACD00E2A75A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D35ED725C8BACD00E2A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D35EFC25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D35EE225C8BACD00E2A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D35EFD25C8BD2600E2A75A /* RobotoCondensed-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D35EC425C8BACB00E2A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D35ECE25C8BACB00E2A75A /* ContentView.swift in Sources */,
+				37D35F0225C8C9A300E2A75A /* InfoView.swift in Sources */,
+				37D35ECC25C8BACB00E2A75A /* BenjaminCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D35ED525C8BACD00E2A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D35F0325C8C9A300E2A75A /* InfoView.swift in Sources */,
+				37D35EDE25C8BACD00E2A75A /* BenjaminCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D35EE025C8BACD00E2A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D35F0425C8C9A300E2A75A /* InfoView.swift in Sources */,
+				37D35EE925C8BACD00E2A75A /* BenjaminCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37D35EDB25C8BACD00E2A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D35EC725C8BACB00E2A75A /* BenjaminCard */;
+			targetProxy = 37D35EDA25C8BACD00E2A75A /* PBXContainerItemProxy */;
+		};
+		37D35EE625C8BACD00E2A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D35EC725C8BACB00E2A75A /* BenjaminCard */;
+			targetProxy = 37D35EE525C8BACD00E2A75A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37D35EEB25C8BACD00E2A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37D35EEC25C8BACD00E2A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D35EEE25C8BACD00E2A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BenjaminCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BenjaminCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.benprogrammer.BenjaminCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37D35EEF25C8BACD00E2A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BenjaminCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BenjaminCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.benprogrammer.BenjaminCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37D35EF125C8BACD00E2A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BenjaminCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.benprogrammer.BenjaminCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BenjaminCard.app/BenjaminCard";
+			};
+			name = Debug;
+		};
+		37D35EF225C8BACD00E2A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BenjaminCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.benprogrammer.BenjaminCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BenjaminCard.app/BenjaminCard";
+			};
+			name = Release;
+		};
+		37D35EF425C8BACD00E2A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BenjaminCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.benprogrammer.BenjaminCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BenjaminCard;
+			};
+			name = Debug;
+		};
+		37D35EF525C8BACD00E2A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BenjaminCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.benprogrammer.BenjaminCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BenjaminCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D35EC325C8BACA00E2A75A /* Build configuration list for PBXProject "BenjaminCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D35EEB25C8BACD00E2A75A /* Debug */,
+				37D35EEC25C8BACD00E2A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D35EED25C8BACD00E2A75A /* Build configuration list for PBXNativeTarget "BenjaminCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D35EEE25C8BACD00E2A75A /* Debug */,
+				37D35EEF25C8BACD00E2A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D35EF025C8BACD00E2A75A /* Build configuration list for PBXNativeTarget "BenjaminCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D35EF125C8BACD00E2A75A /* Debug */,
+				37D35EF225C8BACD00E2A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D35EF325C8BACD00E2A75A /* Build configuration list for PBXNativeTarget "BenjaminCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D35EF425C8BACD00E2A75A /* Debug */,
+				37D35EF525C8BACD00E2A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D35EC025C8BACA00E2A75A /* Project object */;
+}
